@@ -1,0 +1,8 @@
+最佳参数:
+{'subsample': 1.0, 'n_estimators': 500, 'min_samples_split': 2, 'min_samples_leaf': 4, 'max_depth': 3, 'learning_rate': 0.1}
+
+交叉验证MSE: 473708.792370
+
+测试集MSE: 412284.129252
+测试集R²: 0.444044
+测试集Pearson相关系数: 0.679404

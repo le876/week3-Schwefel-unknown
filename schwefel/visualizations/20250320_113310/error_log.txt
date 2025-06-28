@@ -1,0 +1,9 @@
+Error Time: 2025-03-20 11:34:14
+Error Message: name 'best_weights' is not defined
+
+Traceback (most recent call last):
+  File "/home/ym/code/ML_training/week3/schwefel/train_gbdt.py", line 1010, in <module>
+    mse, r2, pearson = main()
+  File "/home/ym/code/ML_training/week3/schwefel/train_gbdt.py", line 1001, in main
+    for i, weight in enumerate(best_weights):
+NameError: name 'best_weights' is not defined

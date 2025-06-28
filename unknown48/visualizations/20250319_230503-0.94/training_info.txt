@@ -1,0 +1,13 @@
+LightGBM Model Training Information
+=====================================
+
+Training Time: 20250319_230503
+Input Shape: (640, 1416)
+Training Samples: 640
+Validation Samples: 160
+Test Samples: 200
+
+Test Set Evaluation Results:
+MSE: 0.000168
+R²: 0.872346
+Pearson Correlation: 0.947413

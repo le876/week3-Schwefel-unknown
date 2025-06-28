@@ -1,0 +1,2 @@
+Test MSE: 0.2395
+Test Pearson Correlation: 0.8705

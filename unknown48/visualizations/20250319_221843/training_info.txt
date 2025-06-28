@@ -1,0 +1,13 @@
+ResNet 2D CNN Model Training Information
+=====================================
+
+Training Time: 20250319_221843
+Input Shape: (48, 9, 1)
+Training Samples: 640
+Validation Samples: 160
+Test Samples: 200
+
+Test Set Evaluation Results:
+MSE: 0.001357
+R²: -0.032753
+Pearson Correlation: 0.166726

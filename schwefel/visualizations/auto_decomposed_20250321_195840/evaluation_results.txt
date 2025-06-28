@@ -1,0 +1,24 @@
+Test MSE: 0.2118
+Test Pearson Correlation: 0.8953
+
+Dimension Contributions (%):
+Dimension 1: 6.13%
+Dimension 2: 5.55%
+Dimension 3: 4.96%
+Dimension 4: 4.67%
+Dimension 5: 5.08%
+Dimension 6: 4.65%
+Dimension 7: 4.99%
+Dimension 8: 4.85%
+Dimension 9: 5.79%
+Dimension 10: 3.73%
+Dimension 11: 4.84%
+Dimension 12: 5.10%
+Dimension 13: 4.30%
+Dimension 14: 5.38%
+Dimension 15: 4.71%
+Dimension 16: 4.80%
+Dimension 17: 5.17%
+Dimension 18: 5.22%
+Dimension 19: 4.97%
+Dimension 20: 5.11%

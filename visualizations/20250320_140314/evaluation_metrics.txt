@@ -1,0 +1,3 @@
+MSE: 545778.534803
+R²: 0.264029
+Pearson Correlation: 0.516358

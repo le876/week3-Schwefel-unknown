@@ -1,0 +1,13 @@
+错误时间: 2025-03-19 22:03:48
+错误信息: You must install pydot (`pip install pydot`) and install graphviz (see instructions at https://graphviz.gitlab.io/download/) for plot_model to work.
+
+Traceback (most recent call last):
+  File "/home/ym/code/ML_training/week3/unknown48/train_resnet_2d.py", line 562, in <module>
+    mse, r2, pearson = main()
+  File "/home/ym/code/ML_training/week3/unknown48/train_resnet_2d.py", line 531, in main
+    model = train_model(x_train_reshaped, y_train_split, x_val_reshaped, y_val, input_shape, vis_dir)
+  File "/home/ym/code/ML_training/week3/unknown48/train_resnet_2d.py", line 311, in train_model
+    tf.keras.utils.plot_model(
+  File "/root/anaconda3/envs/mlenv/lib/python3.10/site-packages/keras/utils/vis_utils.py", line 449, in plot_model
+    raise ImportError(message)
+ImportError: You must install pydot (`pip install pydot`) and install graphviz (see instructions at https://graphviz.gitlab.io/download/) for plot_model to work.

@@ -1,0 +1,15 @@
+=== 堆叠集成模型报告 ===
+
+基础模型性能:
+- LGBM-GBDT: Pearson = 0.056115
+- LGBM-DART: Pearson = 0.054852
+- LGBM-GOSS: Pearson = 0.071852
+- RandomForest: Pearson = 0.080067
+- GradientBoosting: Pearson = 0.014424
+- ExtraTrees: Pearson = 0.064993
+- ElasticNet: Pearson = 0.003487
+- LinearSVR: Pearson = 0.032147
+
+元模型 (LightGBM) 性能:
+- 验证集 Pearson = 0.059885
+- 测试集 Pearson = -0.047433

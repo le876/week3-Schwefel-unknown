@@ -1,0 +1,16 @@
+Error Time: 2025-03-20 11:31:47
+Error Message: tri() missing 1 required positional argument: 'N'
+
+Traceback (most recent call last):
+  File "/home/ym/code/ML_training/week3/schwefel/train_gbdt.py", line 944, in <module>
+    mse, r2, pearson = main()
+  File "/home/ym/code/ML_training/week3/schwefel/train_gbdt.py", line 900, in main
+    x_train_processed, y_train_processed, x_val_processed, y_val_processed, x_test_processed, y_test_processed, scaler_y, feature_indices = preprocess_data(
+  File "/home/ym/code/ML_training/week3/schwefel/train_gbdt.py", line 337, in preprocess_data
+    x_train_engineered = feature_engineering(x_train)
+  File "/home/ym/code/ML_training/week3/schwefel/train_gbdt.py", line 161, in feature_engineering
+    mask = np.triu(np.ones(corr_matrix.shape), k=1).astype(bool)
+  File "<__array_function__ internals>", line 200, in triu
+  File "/root/anaconda3/envs/mlenv/lib/python3.10/site-packages/numpy/lib/twodim_base.py", line 536, in triu
+    mask = tri(*m.shape[-2:], k=k-1, dtype=bool)
+TypeError: tri() missing 1 required positional argument: 'N'

@@ -1,0 +1,17 @@
+Error Time: 2025-03-20 14:07:21
+Error Message: '<' not supported between instances of 'CallbackEnv' and 'int'
+
+Traceback (most recent call last):
+  File "/home/ym/code/ML_training/week3/schwefel/train_gbdt.py", line 1396, in <module>
+    mse, r2, pearson = main()
+  File "/home/ym/code/ML_training/week3/schwefel/train_gbdt.py", line 1030, in main
+    raise e
+  File "/home/ym/code/ML_training/week3/schwefel/train_gbdt.py", line 990, in main
+    stacking_model, stacking_pearson, stacking_pred = train_stacking_ensemble(
+  File "/home/ym/code/ML_training/week3/schwefel/train_gbdt.py", line 1184, in train_stacking_ensemble
+    lgb_model = lgb.train(
+  File "/root/anaconda3/envs/mlenv/lib/python3.10/site-packages/lightgbm/engine.py", line 332, in train
+    cb(
+  File "/home/ym/code/ML_training/week3/schwefel/train_gbdt.py", line 500, in __call__
+    if current_round < self.warmup_rounds:
+TypeError: '<' not supported between instances of 'CallbackEnv' and 'int'

@@ -1,0 +1,21 @@
+Training timestamp: 20250320_134433
+
+Final metrics:
+- MSE: 0.104624
+- R^2: -0.128567
+- Pearson correlation: -0.047433
+
+Data info:
+- Training samples: 800
+- Validation samples: 200
+- Test samples: 200
+- Original features: 10
+- Engineered features: 205
+- Selected features: 54
+
+Training process:
+- Feature engineering
+- Feature selection
+- Stacking ensemble model
+
+Final Pearson correlation: -0.047433

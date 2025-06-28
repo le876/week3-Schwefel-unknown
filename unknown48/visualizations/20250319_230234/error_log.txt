@@ -1,0 +1,11 @@
+Error Time: 2025-03-19 23:02:35
+Error Message: 'mse'
+
+Traceback (most recent call last):
+  File "/home/ym/code/ML_training/week3/unknown48/train_gbdt.py", line 354, in <module>
+    mse, r2, pearson = main()
+  File "/home/ym/code/ML_training/week3/unknown48/train_gbdt.py", line 323, in main
+    model = train_model(x_train_split, y_train_split, x_val, y_val, vis_dir)
+  File "/home/ym/code/ML_training/week3/unknown48/train_gbdt.py", line 180, in train_model
+    train_loss = [x for x in eval_results['train']['mse']]
+KeyError: 'mse'

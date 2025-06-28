@@ -1,0 +1,13 @@
+=== Model Performance Report ===
+
+Base Model Performance:
+- LGBM-1: Pearson = 0.423899
+- LGBM-2: Pearson = 0.357460
+- RF-1: Pearson = 0.385473
+- RF-2: Pearson = 0.392519
+- GB: Pearson = 0.410967
+- ET: Pearson = 0.405678
+
+Meta-Model Performance:
+- Validation Set Pearson = 0.640830
+- Test Set Pearson = 0.409265

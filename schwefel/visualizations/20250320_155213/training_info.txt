@@ -1,0 +1,50 @@
+训练信息:
+时间戳: 20250320_155213
+特征数量: 260
+模型权重: [0.02753297 0.04656538 0.08888181 0.00943432 0.00165248 0.06581461
+ 0.09569296 0.05689325 0.08442595 0.04989204 0.02582135 0.00808851
+ 0.02817614 0.04729146 0.07387056 0.05805573 0.09008353 0.04158743
+ 0.03721619 0.06302333]
+
+模型参数:
+
+模型 1:
+{'objective': 'regression', 'metric': 'mse', 'boosting_type': 'goss', 'num_leaves': 63, 'learning_rate': 0.02, 'feature_fraction': 0.9, 'verbose': -1, 'num_threads': -1, 'lambda_l1': 0.05, 'lambda_l2': 0.1, 'min_data_in_leaf': 10, 'max_depth': 8, 'num_iterations': 3000, 'early_stopping_round': 100, 'top_rate': 0.3, 'other_rate': 0.1, 'random_state': 42}
+模型 2:
+{'objective': 'regression', 'metric': 'mse', 'boosting_type': 'goss', 'num_leaves': 63, 'learning_rate': 0.02, 'feature_fraction': 0.9, 'verbose': -1, 'num_threads': -1, 'lambda_l1': 0.05, 'lambda_l2': 0.1, 'min_data_in_leaf': 10, 'max_depth': 8, 'num_iterations': 3000, 'early_stopping_round': 100, 'top_rate': 0.3, 'other_rate': 0.1, 'random_state': 42}
+模型 3:
+{'objective': 'regression', 'metric': 'mse', 'boosting_type': 'goss', 'num_leaves': 63, 'learning_rate': 0.02, 'feature_fraction': 0.9, 'verbose': -1, 'num_threads': -1, 'lambda_l1': 0.05, 'lambda_l2': 0.1, 'min_data_in_leaf': 10, 'max_depth': 8, 'num_iterations': 3000, 'early_stopping_round': 100, 'top_rate': 0.3, 'other_rate': 0.1, 'random_state': 42}
+模型 4:
+{'objective': 'regression', 'metric': 'mse', 'boosting_type': 'goss', 'num_leaves': 63, 'learning_rate': 0.02, 'feature_fraction': 0.9, 'verbose': -1, 'num_threads': -1, 'lambda_l1': 0.05, 'lambda_l2': 0.1, 'min_data_in_leaf': 10, 'max_depth': 8, 'num_iterations': 3000, 'early_stopping_round': 100, 'top_rate': 0.3, 'other_rate': 0.1, 'random_state': 42}
+模型 5:
+{'objective': 'regression', 'metric': 'mse', 'boosting_type': 'goss', 'num_leaves': 63, 'learning_rate': 0.02, 'feature_fraction': 0.9, 'verbose': -1, 'num_threads': -1, 'lambda_l1': 0.05, 'lambda_l2': 0.1, 'min_data_in_leaf': 10, 'max_depth': 8, 'num_iterations': 3000, 'early_stopping_round': 100, 'top_rate': 0.3, 'other_rate': 0.1, 'random_state': 42}
+模型 6:
+{'objective': 'regression', 'metric': 'mse', 'boosting_type': 'goss', 'num_leaves': 63, 'learning_rate': 0.02, 'feature_fraction': 0.9, 'verbose': -1, 'num_threads': -1, 'lambda_l1': 0.05, 'lambda_l2': 0.1, 'min_data_in_leaf': 10, 'max_depth': 8, 'num_iterations': 3000, 'early_stopping_round': 100, 'top_rate': 0.3, 'other_rate': 0.1, 'random_state': 42}
+模型 7:
+{'objective': 'regression', 'metric': 'mse', 'boosting_type': 'goss', 'num_leaves': 63, 'learning_rate': 0.02, 'feature_fraction': 0.9, 'verbose': -1, 'num_threads': -1, 'lambda_l1': 0.05, 'lambda_l2': 0.1, 'min_data_in_leaf': 10, 'max_depth': 8, 'num_iterations': 3000, 'early_stopping_round': 100, 'top_rate': 0.3, 'other_rate': 0.1, 'random_state': 42}
+模型 8:
+{'objective': 'regression', 'metric': 'mse', 'boosting_type': 'goss', 'num_leaves': 63, 'learning_rate': 0.02, 'feature_fraction': 0.9, 'verbose': -1, 'num_threads': -1, 'lambda_l1': 0.05, 'lambda_l2': 0.1, 'min_data_in_leaf': 10, 'max_depth': 8, 'num_iterations': 3000, 'early_stopping_round': 100, 'top_rate': 0.3, 'other_rate': 0.1, 'random_state': 42}
+模型 9:
+{'objective': 'regression', 'metric': 'mse', 'boosting_type': 'goss', 'num_leaves': 63, 'learning_rate': 0.02, 'feature_fraction': 0.9, 'verbose': -1, 'num_threads': -1, 'lambda_l1': 0.05, 'lambda_l2': 0.1, 'min_data_in_leaf': 10, 'max_depth': 8, 'num_iterations': 3000, 'early_stopping_round': 100, 'top_rate': 0.3, 'other_rate': 0.1, 'random_state': 42}
+模型 10:
+{'objective': 'regression', 'metric': 'mse', 'boosting_type': 'goss', 'num_leaves': 63, 'learning_rate': 0.02, 'feature_fraction': 0.9, 'verbose': -1, 'num_threads': -1, 'lambda_l1': 0.05, 'lambda_l2': 0.1, 'min_data_in_leaf': 10, 'max_depth': 8, 'num_iterations': 3000, 'early_stopping_round': 100, 'top_rate': 0.3, 'other_rate': 0.1, 'random_state': 42}
+模型 11:
+{'objective': 'regression', 'metric': 'mse', 'boosting_type': 'goss', 'num_leaves': 63, 'learning_rate': 0.02, 'feature_fraction': 0.9, 'verbose': -1, 'num_threads': -1, 'lambda_l1': 0.05, 'lambda_l2': 0.1, 'min_data_in_leaf': 10, 'max_depth': 8, 'num_iterations': 3000, 'early_stopping_round': 100, 'top_rate': 0.3, 'other_rate': 0.1, 'random_state': 42}
+模型 12:
+{'objective': 'regression', 'metric': 'mse', 'boosting_type': 'goss', 'num_leaves': 63, 'learning_rate': 0.02, 'feature_fraction': 0.9, 'verbose': -1, 'num_threads': -1, 'lambda_l1': 0.05, 'lambda_l2': 0.1, 'min_data_in_leaf': 10, 'max_depth': 8, 'num_iterations': 3000, 'early_stopping_round': 100, 'top_rate': 0.3, 'other_rate': 0.1, 'random_state': 42}
+模型 13:
+{'objective': 'regression', 'metric': 'mse', 'boosting_type': 'goss', 'num_leaves': 63, 'learning_rate': 0.02, 'feature_fraction': 0.9, 'verbose': -1, 'num_threads': -1, 'lambda_l1': 0.05, 'lambda_l2': 0.1, 'min_data_in_leaf': 10, 'max_depth': 8, 'num_iterations': 3000, 'early_stopping_round': 100, 'top_rate': 0.3, 'other_rate': 0.1, 'random_state': 42}
+模型 14:
+{'objective': 'regression', 'metric': 'mse', 'boosting_type': 'goss', 'num_leaves': 63, 'learning_rate': 0.02, 'feature_fraction': 0.9, 'verbose': -1, 'num_threads': -1, 'lambda_l1': 0.05, 'lambda_l2': 0.1, 'min_data_in_leaf': 10, 'max_depth': 8, 'num_iterations': 3000, 'early_stopping_round': 100, 'top_rate': 0.3, 'other_rate': 0.1, 'random_state': 42}
+模型 15:
+{'objective': 'regression', 'metric': 'mse', 'boosting_type': 'goss', 'num_leaves': 63, 'learning_rate': 0.02, 'feature_fraction': 0.9, 'verbose': -1, 'num_threads': -1, 'lambda_l1': 0.05, 'lambda_l2': 0.1, 'min_data_in_leaf': 10, 'max_depth': 8, 'num_iterations': 3000, 'early_stopping_round': 100, 'top_rate': 0.3, 'other_rate': 0.1, 'random_state': 42}
+模型 16:
+{'objective': 'regression', 'metric': 'mse', 'boosting_type': 'goss', 'num_leaves': 63, 'learning_rate': 0.02, 'feature_fraction': 0.9, 'verbose': -1, 'num_threads': -1, 'lambda_l1': 0.05, 'lambda_l2': 0.1, 'min_data_in_leaf': 10, 'max_depth': 8, 'num_iterations': 3000, 'early_stopping_round': 100, 'top_rate': 0.3, 'other_rate': 0.1, 'random_state': 42}
+模型 17:
+{'objective': 'regression', 'metric': 'mse', 'boosting_type': 'goss', 'num_leaves': 63, 'learning_rate': 0.02, 'feature_fraction': 0.9, 'verbose': -1, 'num_threads': -1, 'lambda_l1': 0.05, 'lambda_l2': 0.1, 'min_data_in_leaf': 10, 'max_depth': 8, 'num_iterations': 3000, 'early_stopping_round': 100, 'top_rate': 0.3, 'other_rate': 0.1, 'random_state': 42}
+模型 18:
+{'objective': 'regression', 'metric': 'mse', 'boosting_type': 'goss', 'num_leaves': 63, 'learning_rate': 0.02, 'feature_fraction': 0.9, 'verbose': -1, 'num_threads': -1, 'lambda_l1': 0.05, 'lambda_l2': 0.1, 'min_data_in_leaf': 10, 'max_depth': 8, 'num_iterations': 3000, 'early_stopping_round': 100, 'top_rate': 0.3, 'other_rate': 0.1, 'random_state': 42}
+模型 19:
+{'objective': 'regression', 'metric': 'mse', 'boosting_type': 'goss', 'num_leaves': 63, 'learning_rate': 0.02, 'feature_fraction': 0.9, 'verbose': -1, 'num_threads': -1, 'lambda_l1': 0.05, 'lambda_l2': 0.1, 'min_data_in_leaf': 10, 'max_depth': 8, 'num_iterations': 3000, 'early_stopping_round': 100, 'top_rate': 0.3, 'other_rate': 0.1, 'random_state': 42}
+模型 20:
+{'objective': 'regression', 'metric': 'mse', 'boosting_type': 'goss', 'num_leaves': 63, 'learning_rate': 0.02, 'feature_fraction': 0.9, 'verbose': -1, 'num_threads': -1, 'lambda_l1': 0.05, 'lambda_l2': 0.1, 'min_data_in_leaf': 10, 'max_depth': 8, 'num_iterations': 3000, 'early_stopping_round': 100, 'top_rate': 0.3, 'other_rate': 0.1, 'random_state': 42}

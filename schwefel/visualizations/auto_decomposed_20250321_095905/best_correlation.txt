@@ -1,0 +1,3 @@
+Best Training Pearson: 0.6591
+Best Validation Pearson: 0.8793
+Best Epoch: 34

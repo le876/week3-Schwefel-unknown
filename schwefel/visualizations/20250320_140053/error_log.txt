@@ -1,0 +1,21 @@
+Error Time: 2025-03-20 14:00:54
+Error Message: X has 438 features, but VarianceThreshold is expecting 440 features as input.
+
+Traceback (most recent call last):
+  File "/home/ym/code/ML_training/week3/schwefel/train_gbdt.py", line 1339, in <module>
+    mse, r2, pearson = main()
+  File "/home/ym/code/ML_training/week3/schwefel/train_gbdt.py", line 998, in main
+    raise e
+  File "/home/ym/code/ML_training/week3/schwefel/train_gbdt.py", line 952, in main
+    x_train_selected, x_val_selected, x_test_selected, feature_indices = select_important_features(
+  File "/home/ym/code/ML_training/week3/schwefel/train_gbdt.py", line 336, in select_important_features
+    x_val_var = var_selector.transform(x_val)
+  File "/root/anaconda3/envs/mlenv/lib/python3.10/site-packages/sklearn/utils/_set_output.py", line 140, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "/root/anaconda3/envs/mlenv/lib/python3.10/site-packages/sklearn/feature_selection/_base.py", line 83, in transform
+    X = self._validate_data(
+  File "/root/anaconda3/envs/mlenv/lib/python3.10/site-packages/sklearn/base.py", line 588, in _validate_data
+    self._check_n_features(X, reset=reset)
+  File "/root/anaconda3/envs/mlenv/lib/python3.10/site-packages/sklearn/base.py", line 389, in _check_n_features
+    raise ValueError(
+ValueError: X has 438 features, but VarianceThreshold is expecting 440 features as input.

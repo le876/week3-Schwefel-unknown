@@ -1,0 +1,17 @@
+Error Time: 2025-03-19 23:07:45
+Error Message: Reducing `min_data_in_leaf` with `feature_pre_filter=true` may cause unexpected behaviour for features that were pre-filtered by the larger `min_data_in_leaf`.
+You need to set `feature_pre_filter=false` to dynamically change the `min_data_in_leaf`.
+
+Traceback (most recent call last):
+  File "/home/ym/code/ML_training/week3/unknown48/train_gbdt.py", line 429, in <module>
+    mse, r2, pearson = main()
+  File "/home/ym/code/ML_training/week3/unknown48/train_gbdt.py", line 398, in main
+    models = train_model(x_train_split, y_train_split, x_val, y_val, vis_dir)
+  File "/home/ym/code/ML_training/week3/unknown48/train_gbdt.py", line 229, in train_model
+    model = lgb.train(
+  File "/root/anaconda3/envs/mlenv/lib/python3.10/site-packages/lightgbm/engine.py", line 244, in train
+    train_set._update_params(params)._set_predictor(predictor)
+  File "/root/anaconda3/envs/mlenv/lib/python3.10/site-packages/lightgbm/basic.py", line 2747, in _update_params
+    raise LightGBMError(_LIB.LGBM_GetLastError().decode("utf-8"))
+lightgbm.basic.LightGBMError: Reducing `min_data_in_leaf` with `feature_pre_filter=true` may cause unexpected behaviour for features that were pre-filtered by the larger `min_data_in_leaf`.
+You need to set `feature_pre_filter=false` to dynamically change the `min_data_in_leaf`.

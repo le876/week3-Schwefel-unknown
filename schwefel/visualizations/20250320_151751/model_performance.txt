@@ -1,0 +1,22 @@
+Model Performance Summary
+========================
+
+Individual Models Performance (Validation Set):
+GBDT-Deep - Pearson: 0.395132, MSE: 686082.892391
+Parameters: {'objective': 'regression', 'metric': 'mse', 'boosting_type': 'gbdt', 'num_leaves': 255, 'learning_rate': 0.005, 'feature_fraction': 0.9, 'bagging_fraction': 0.9, 'bagging_freq': 5, 'min_data_in_leaf': 10, 'max_depth': -1, 'num_iterations': 10000, 'early_stopping_round': 200, 'verbose': -1, 'num_threads': -1, 'lambda_l1': 0, 'lambda_l2': 1, 'random_state': 42}
+
+GBDT-Wide - Pearson: 0.397512, MSE: 681560.714221
+Parameters: {'objective': 'regression', 'metric': 'mse', 'boosting_type': 'gbdt', 'num_leaves': 511, 'learning_rate': 0.003, 'feature_fraction': 0.7, 'bagging_fraction': 0.8, 'bagging_freq': 5, 'min_data_in_leaf': 5, 'max_depth': -1, 'num_iterations': 12000, 'early_stopping_round': 200, 'verbose': -1, 'num_threads': -1, 'lambda_l1': 0.1, 'lambda_l2': 1, 'random_state': 42}
+
+GBDT-Balanced - Pearson: 0.326742, MSE: 719988.138765
+Parameters: {'objective': 'regression', 'metric': 'mse', 'boosting_type': 'gbdt', 'num_leaves': 127, 'learning_rate': 0.01, 'feature_fraction': 0.8, 'bagging_fraction': 0.7, 'bagging_freq': 5, 'min_data_in_leaf': 3, 'max_depth': 12, 'num_iterations': 8000, 'early_stopping_round': 150, 'verbose': -1, 'num_threads': -1, 'lambda_l1': 0.05, 'lambda_l2': 0.5, 'random_state': 42}
+
+
+Ensemble Model Performance:
+Validation - Pearson: 0.387713, MSE: 687577.035613, R²: 0.142365
+Test - Pearson: 0.503673, MSE: 559430.329180, R²: 0.245620
+
+Model Weights in Ensemble:
+GBDT-Deep: 0.370937
+GBDT-Wide: 0.375418
+GBDT-Balanced: 0.253644

@@ -1,0 +1,21 @@
+Dimension Weights:
+Dimension 1: 0.030889
+Dimension 2: 0.056007
+Dimension 3: 0.069059
+Dimension 4: 0.018874
+Dimension 5: 0.000000
+Dimension 6: 0.064715
+Dimension 7: 0.078938
+Dimension 8: 0.052754
+Dimension 9: 0.073369
+Dimension 10: 0.051191
+Dimension 11: 0.044490
+Dimension 12: 0.044863
+Dimension 13: 0.034095
+Dimension 14: 0.030484
+Dimension 15: 0.069680
+Dimension 16: 0.041639
+Dimension 17: 0.082172
+Dimension 18: 0.053934
+Dimension 19: 0.038467
+Dimension 20: 0.064381

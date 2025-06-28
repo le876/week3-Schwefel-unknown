@@ -1,0 +1,9 @@
+错误时间: 2025-03-21 20:26:52
+错误信息: train_model_enhanced() takes from 5 to 9 positional arguments but 11 were given
+
+Traceback (most recent call last):
+  File "/home/ym/code/ML_training/week3/unknown48/train_gbdt.py", line 948, in <module>
+    mse, r2, pearson = main()
+  File "/home/ym/code/ML_training/week3/unknown48/train_gbdt.py", line 801, in main
+    models, val_preds, test_preds, best_iterations = train_model_enhanced(
+TypeError: train_model_enhanced() takes from 5 to 9 positional arguments but 11 were given

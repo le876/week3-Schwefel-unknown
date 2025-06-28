@@ -1,0 +1,11 @@
+=== Training Information ===
+
+Data Information:
+- Training set size: 640
+- Validation set size: 160
+- Test set size: 200
+- Number of features: 20
+- Number of selected features: 433
+
+Model Performance:
+- Test Set Pearson Correlation: 0.572283

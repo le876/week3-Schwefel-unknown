@@ -1,0 +1,4 @@
+model,pearson
+basic_cnn,-0.01632973250748924
+multiscale_cnn,-0.011233691619179398
+resnet_cnn,0.0044191813266513825

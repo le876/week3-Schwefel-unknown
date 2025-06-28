@@ -1,0 +1,15 @@
+Advanced GBDT Model Training Information
+================================================
+
+Training Time: 20250321_203139
+Original Input Shape: (640, 1848)
+Selected Features Shape: (640, 101)
+Training Samples: 640
+Validation Samples: 160
+Test Samples: 200
+
+Test Set Evaluation Results:
+Best Model: GBDT Model 1
+MSE: 0.000147
+R²: 0.888387
+Pearson Correlation: 0.946610

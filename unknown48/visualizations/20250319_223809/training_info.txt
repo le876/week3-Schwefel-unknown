@@ -1,0 +1,15 @@
+ResNet 1D CNN Model Training Information
+=====================================
+
+Training Time: 20250319_223809
+Input Shape: (9, 48)
+Features as Spatial Dimension: 9
+Time Steps as Channels: 48
+Training Samples: 640
+Validation Samples: 160
+Test Samples: 200
+
+Test Set Evaluation Results:
+MSE: 0.001325
+R²: -0.008009
+Pearson Correlation: -0.026522

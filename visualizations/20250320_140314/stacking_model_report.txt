@@ -1,0 +1,15 @@
+=== Stacking Model Report ===
+
+Base Model Performance:
+- LGBM-GBDT: Pearson = 0.570777
+- LGBM-DART: Pearson = 0.535263
+- LGBM-GOSS: Pearson = 0.543878
+- RandomForest: Pearson = 0.559176
+- GradientBoosting: Pearson = 0.549113
+- ExtraTrees: Pearson = 0.543929
+- ElasticNet: Pearson = 0.233383
+- LinearSVR: Pearson = 0.467731
+
+Meta-Model (LightGBM) Performance:
+- Validation Set Pearson = 0.561468
+- Test Set Pearson = 0.516358

@@ -1,0 +1,20 @@
+Enhanced GBDT Model Training Information (Schwefel Dataset)
+====================================================
+
+Training Time: 20250320_000330
+Input Feature Shape: (640, 43)
+Training Samples: 640
+Validation Samples: 160
+Test Samples: 200
+
+Test Set Evaluation Results:
+MSE: 486346.097138
+R²: 0.344173
+Pearson Correlation: 0.609516
+
+Features Engineering:
+- Polynomial features (degree=2)
+- Statistical features
+- Feature selection
+
+Model Ensemble Weights:

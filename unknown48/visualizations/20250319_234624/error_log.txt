@@ -1,0 +1,19 @@
+Error Time: 2025-03-19 23:47:02
+Error Message: X has 4 features, but Ridge is expecting 3 features as input.
+
+Traceback (most recent call last):
+  File "/home/ym/code/ML_training/week3/unknown48/train_gbdt.py", line 676, in <module>
+    mse, r2, pearson = main()
+  File "/home/ym/code/ML_training/week3/unknown48/train_gbdt.py", line 642, in main
+    models, mse, r2, pearson = stacking_ensemble(
+  File "/home/ym/code/ML_training/week3/unknown48/train_gbdt.py", line 501, in stacking_ensemble
+    meta_preds[name] = model.predict(test_preds_array)
+  File "/root/anaconda3/envs/mlenv/lib/python3.10/site-packages/sklearn/linear_model/_base.py", line 354, in predict
+    return self._decision_function(X)
+  File "/root/anaconda3/envs/mlenv/lib/python3.10/site-packages/sklearn/linear_model/_base.py", line 337, in _decision_function
+    X = self._validate_data(X, accept_sparse=["csr", "csc", "coo"], reset=False)
+  File "/root/anaconda3/envs/mlenv/lib/python3.10/site-packages/sklearn/base.py", line 588, in _validate_data
+    self._check_n_features(X, reset=reset)
+  File "/root/anaconda3/envs/mlenv/lib/python3.10/site-packages/sklearn/base.py", line 389, in _check_n_features
+    raise ValueError(
+ValueError: X has 4 features, but Ridge is expecting 3 features as input.
