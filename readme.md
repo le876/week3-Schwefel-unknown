@@ -7,7 +7,7 @@
 ### 任务1：Schwefel函数神经网络逼近
 - **目标**：使用神经网络逼近20维Schwefel函数
 - **数据特点**：1000个20维样本。每个维度独立性强
-- **模型方法**：基于函数维度分解的神经网络架构设计
+- **模型方法**：基于函数维度分解的神经网络架构
 - **最终结果**：Pearson ratio= 0.892
 
 ### 任务2：Unknown48时序数据回归预测
@@ -115,7 +115,7 @@ week3/
 
 详细训练结果见：`unknown48/visualizations/20250321_203139/`
 
-## 核心技术展示
+## 数据分析部分结果
 
 ### Schwefel函数分解神经网络架构
 
@@ -129,17 +129,13 @@ week3/
 <p><em>自动分解神经网络训练过程：损失函数和Pearson相关系数变化</em></p>
 </div>
 
-### Unknown48时序数据深度分析
+### Unknown48时序数据分析
 
 <div align="center">
 <img src="unknown48/data_analysis_results/feature_target_correlation.png" alt="Unknown48特征与目标变量相关性" width="600"/>
 <p><em>Unknown48数据集特征与目标变量的相关性分析</em></p>
 </div>
 
-<div align="center">
-<img src="unknown48/visualizations/20250321_203139/all_models_pearson_trend.png" alt="Unknown48多模型性能对比" width="700"/>
-<p><em>Unknown48数据集多种模型的Pearson相关系数训练趋势对比</em></p>
-</div>
 
 ## 环境配置
 
